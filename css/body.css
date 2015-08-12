@@ -1,0 +1,606 @@
+/*
+#FFFFF3 -- * light yellow
+#BFBFB8 -- yellow grey
+#A6A64F -- * dark yellow
+#CDC3C8 -- * pink grey
+#E6E0E3 -- light pink
+#AAA8AF -- * grey
+#D2D1D7 -- light grey
+#853F67 -- maroon
+#453772 -- purple
+*/
+
+
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+* {
+    font-family: Verdana, sans-serif;
+}
+
+body {
+	position: relative;
+}
+
+.content-body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../img/backgrounds/bg-electric-n2.png');
+    width: 100%;
+    height: 100%;
+}
+
+/* Footer CSS*/
+.page-footer {
+	background-color: rgba(20,20,20,.3);
+    color: #cecece;
+}
+
+.social-media-table td {
+	padding-right: 10px;
+}
+
+.social-media-buttons {
+	white-space: nowrap;
+}
+/* End Footer CSS*/
+
+/*Carousel CSS*/
+.carousel .item img {
+	width: 100%;
+}
+
+.carousel-fade .carousel-inner .item {
+	opacity: 1;
+	-webkit-transition-property: opacity;
+	-moz-transition-property: opacity;
+	-o-transition-property: opacity;
+	transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+	opacity: 1;
+}
+
+.carousel > .carousel-indicators {
+    bottom: 40px;
+}
+
+.carousel-text {
+    position: absolute;
+    margin-top: 30vh;
+    color: white;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.carousel-title {
+    font-size: 6em;
+}
+
+.carousel-subtext {
+    position: relative;
+    color: white;
+    font-size: 2em;
+    padding: 0;
+}
+
+.carousel-amp-logo {
+    max-width: 5em;
+    background-color: rgba(255,255,255,.85);
+    border-radius: 5px;
+}
+
+.title-hr {
+    width: 20%;
+    border-top: solid white 4px;
+}
+
+/*End Carousel CSS*/
+
+.service-bar-text {
+    z-index: 20;
+    font-size: 1.6em;
+    background-color: rgba(120,120,120, 1) !important;
+    width: 170px !important;
+    padding: 13px 10px 0 0 !important;
+    text-align: right;
+}
+
+.service-bar {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(255,255,255,.6);
+    width: 100%;
+    height: 60px;
+    padding: 5px 0;
+}
+
+.service-bar img {
+    height: 50px;
+    margin: 0 10px;
+}
+
+.services-lines {
+    position: absolute;
+    border-bottom: 4px solid gray;
+    left: 100%;
+    bottom: 35px;
+    z-index: 100;
+    width: 30px;
+    display: none;
+}
+
+.line0 {
+    display: block;
+}
+
+.line1 {
+    width: 50px;
+    z-index: 0;
+    bottom: 5px;
+}
+
+.line2 {
+    width: 100px;
+}
+
+.line3 {
+    width: 170px;
+}
+
+.line4 {
+    width: 240px;
+}
+
+.line5 {
+    width: 300px;
+}
+
+.services-line1 {
+    position: absolute;
+    left: 100%;
+    bottom: 5px;
+    display: none;
+    width: 50px;
+    height: 50px;
+    border-right: 4px solid gray;
+}
+
+.services-line2 {
+    position: absolute;
+    left: 100%;
+    bottom: 35px;
+    display: none;
+    width: 100px;
+    height: 150px;
+    border-right: 4px solid gray;
+}
+
+.services-line3 {
+    position: absolute;
+    left: 100%;
+    bottom: 35px;
+    display: none;
+    width: 170px;
+    height: 200px;
+    border-right: 4px solid gray;
+}
+
+.services-line4 {
+    position: absolute;
+    left: 100%;
+    bottom: 35px;
+    display: none;
+    width: 240px;
+    height: 300px;
+    border-right: 4px solid gray;
+}
+
+.services-line5 {
+    position: absolute;
+    left: 100%;
+    bottom: 35px;
+    display: none;
+    width: 300px;
+    height: 450px;
+    border-right: 4px solid gray;
+}
+
+
+
+.highlight-bar {
+    position: relative;
+    top: 0;
+    background: rgba(200,200,30, 0.6);
+    width: 100%;
+    height: 20px;
+}
+.cursor-change {
+	cursor: pointer;
+}
+
+
+.no-padding{
+	padding: 0 !important;
+}
+
+.no-padding-left{
+	padding-left: 0 !important;
+}
+
+.no-padding-right{
+	padding-right: 0 !important;
+}
+
+.no-margin{
+	margin: 0;
+}
+
+.no-margin-right{
+	margin-right: 0;
+}
+
+.no-margin-left{
+	margin-left: 0;
+}
+
+.margin-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.font-georgia {
+    font-family: Georgia, serif;
+}
+
+.font-verdana {
+    font-family: Verdana, sans-serif;
+}
+
+
+.bot-footer{
+	display: table;
+	width: 100%
+}
+
+.relative-positioning{
+	position: relative;
+	overflow-y:hidden;
+}
+
+ul {
+	list-style-type:circle;
+}
+
+.scroll-carat {
+    position: absolute;
+    z-index: 200;
+    margin-top: -50px;
+    width: 30px;
+    opacity: .5;
+    margin-left: -15px;
+}
+
+.no-select {
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+
+.content-section {
+    background-size: cover;
+    -moz-background-size: cover;
+    height: 100vh;
+    min-height: inherit;
+    background-repeat: no-repeat;
+    color: #f1f1f1;
+}
+
+.content-section > div:first-child {
+    margin-top: 15vh;
+}
+
+/* Benefits Section Sidebar CSS */
+
+.benefits-sidebar a {
+    background-color: rgba(54,54,54,.9);
+    color: #C9C9C9;
+    font-size: 1.2em;
+    font-weight: 300;
+    border: 2px solid #797979;
+    height: 70px;
+}
+
+#sidebar li {
+    margin: 15px 0;
+}
+
+#sidebar > li > a {
+    transition: all .4s;
+}
+
+#sidebar > li > a:hover,
+#sidebar > li > a:focus,
+#sidebar > li > a:active {
+    color: black;
+    background-color: #BCBCBC;
+}
+
+.benefits-btn-active {
+    background-color: #BCBCBC !important;
+    color: #1B1B1B !important;
+    padding-right: 0;
+}
+
+.benefits-active {
+
+    background-color: rgba(40,40,40,.95);
+    padding: 0 15px 10px 15px;
+}
+
+/* End Sidebar CSS*/
+
+h1 u {
+    text-decoration: none;
+    border-bottom: 3px solid #f5f5f5;
+}
+
+.benefits-content {
+    display: none;
+    z-index: 300;
+}
+
+.about-text {
+    font-weight: 300;
+    font-size: 14pt;
+}
+
+.about-content {
+    display: none;
+}
+
+.about-content img {
+	max-height: 320px;
+}
+
+.web-link {
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+.web-link:hover,
+.web-link:active,
+.web-link:focus {
+    color: #f5f5f5;
+}
+
+.signup-btn {
+    background-color: rgba(50,50,50,.4);
+    color: ghostwhite;
+    font-size: 2.5em;
+    font-weight: 300;
+    border: 3px solid #30626B;
+    transition: all .4s;
+    box-shadow: 2px 2px 3px black;
+}
+
+.signup-btn:hover,
+.signup-btn:focus,
+.signup-btn:active {
+    background-color: #30626B;
+    color: ghostwhite;
+    text-shadow: none;
+}
+
+.intro-section {
+    padding: 10px 0 0 0 !important;
+}
+
+
+.intro-section > .logo-section img {
+    height: 7em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.2em;
+    transition: all .3s;
+}
+
+.intro-section > .logo-section {
+    background-color: xrgba(60,60,60,.7);
+}
+
+.logo-section img.mic-logo,
+.logo-section img.hs-logo {
+    height: 7em;
+    padding: 0;
+}
+
+.signup-info-header {
+    font-weight: 300;
+}
+
+.cc-short-field {
+    width: 80px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.sub-text {
+    color: #9c9c9c;
+}
+
+.signup-form {
+    background-color: #f6f6f6;
+}
+
+.cvv-text {
+    color: #f1f1f1;
+    text-decoration: underline;
+    transition: all .2s;
+}
+
+.cvv-text:hover {
+    color: #30626B;
+    background-color: rgba(255,255,255, .8);
+}
+
+
+.about-btn {
+    background-color: rgba(50,50,50,.85);
+    color: ghostwhite;
+    font-size: 16pt;
+    font-weight: 300;
+    border: 2px solid ghostwhite;
+    transition: all .4s;
+    box-shadow: 2px 2px 3px black;
+    padding: 15px;
+}
+
+.about-btn:hover,
+.about-btn:focus,
+.about-btn:active {
+    background-color: ghostwhite;
+    color: black;
+    text-shadow: none;
+}
+
+.copyright-text {
+    padding-bottom: 15px;
+    color: #8b8b8b;
+    font-size: 12pt;
+}
+
+.copyright-hr {
+    margin-bottom: 5px;
+    width: 90%;
+}
+
+.contact-text {
+    font-size: 14pt;
+}
+
+/* MEDIA QUERIES FOR MOBILE SCREENS */
+@media (max-width:768px) {
+
+    .named-link-container {
+        margin-top: 40px;
+    }
+
+    .services-lines, .services-line0, .services-line1, .services-line2, .services-line3, .services-line4, .services-line5 {
+        visibility: hidden;
+    }
+
+    .nr-navbar {
+        background: rgba(50,50,50,1) !important;
+    }
+
+    .nr-brand {
+        font-size: 1em;
+    }
+
+    .content-section {
+        height: auto;
+    }
+
+    .content-section > div:first-child {
+        margin-top: 0;
+    }
+
+    .intro-section > .logo-section > img {
+        height: 2em;
+    }
+
+    .carousel-text {
+        font-size: .5em;
+        margin-top: 50px;
+    }
+
+    .section-header {
+        font-size: 32pt;
+    }
+
+    .about-text {
+        font-size: 1.1em;
+    }
+
+    .about-btn {
+        font-size: 1.5em;
+    }
+
+    .signup-btn {
+        font-size: 1.5em;
+    }
+
+    .benefits-active {
+        background: none;
+    }
+
+    .benefits-sidebar {
+        border: none;
+        z-index: 10;
+    }
+
+    .benefits-sidebar a {
+        height: auto;
+    }
+
+    .benefits-desc {
+        z-index: 0;
+    }
+
+    #sidebar li, #sidebar div {
+        text-align: center;
+    }
+
+    .carousel > .carousel-indicators {
+        bottom: 10px;
+    }
+
+    .scroll-carat {
+        margin-top: -30px;
+    }
+
+    .service-bar-text {
+        display: none;
+    }
+
+    .contact-text {
+        padding: 0 20px;
+    }
+}
+
+/* MEDIA QUERIES FOR TABLET SCREENS */
+@media all and (min-width: 768px) and (max-width: 1024px) and (orientation:portrait){
+    .content-section {
+        height: 1200px;
+    }
+    .carousel-text {
+        margin-top: 100px;
+        font-size: .5em;
+    }
+    .content-section > div:first-child {
+        margin-top: 50px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) and (orientation:landscape){
+    .content-section  {
+        height: 1200px;
+    }
+    .carousel-text {
+        margin-top: 100px;
+        font-size: .5em;
+    }
+    .content-section > div:first-child {
+        margin-top: 50px;
+    }
+}

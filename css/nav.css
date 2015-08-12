@@ -1,0 +1,22 @@
+.nr-navbar {
+    background: rgba(20,20,20,.9);
+    border: none;
+    padding: 0 15px;
+    font-size: 1.3em;
+}
+
+.nr-nav-text {
+    font-weight: 300;
+    font-family: Verdana, sans-serif;
+}
+
+.nr-nav-text:hover,
+.nr-nav-text:active,
+.nr-nav-text:focus {
+    color: ghostwhite !important;
+}
+
+.nr-brand {
+    color: ghostwhite !important;
+    font-size: 1.2em;
+}

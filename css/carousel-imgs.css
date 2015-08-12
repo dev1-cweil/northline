@@ -1,0 +1,86 @@
+.carousel-img {
+    background-size: cover;
+    -moz-background-size: cover;
+    height: 94vh;
+    background-repeat: no-repeat;
+}
+
+.carousel-fade .carousel-inner .item {
+        transition-property: opacity;
+    }
+
+
+
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+        opacity: 0;
+    }
+
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+        opacity: 1;
+    }
+
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+        left: 0;
+        transform: translate3d(0, 0, 0);
+    }
+
+
+/*home Page*/
+.experience-one {
+    background-image: url('/img/a2.jpg');
+    background-position: right center;
+}
+
+.experience-two {
+    background-image: url('/img/b2.jpg');
+    background-position: right bottom;
+}
+.experience-three {
+    background-image: url('/img/motor2.jpg');
+    background-position: center top;
+}
+.experience-four {
+    background-image: url('/img/cartmotor2.jpg');
+    background-position: center bottom;
+}
+.experience-five {
+    background-image: url('/img/alternator2.jpg');
+    background-position: left bottom;
+}
+
+@media all and (min-width: 481px) and (max-width: 1024px) and (orientation:portrait){
+    .carousel-img {
+        height: 604px;
+    }
+}
+
+/**
+ iPad with landscape orientation.
+ */
+@media all and (min-width: 481px) and (max-width: 1024px) and (orientation:landscape){
+    .carousel-img  {
+        height: 668px;
+    }
+}
+
+/**
+ Phone
+ */
+@media all and (max-width: 481px) and (orientation:portrait){
+    .carousel-img  {
+        height: 360px;
+    }
+}
+
+@media all and (max-width: 481px) and (orientation:landscape){
+    .carousel-img  {
+        height: 310px;
+    }
+}

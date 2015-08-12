@@ -1,0 +1,26 @@
+{
+  "name": "AMP RV Travel Group",
+  "version": "1.0.0",
+  "homepage": "http://www.rvtravelgroup.com/",
+  "authors": [
+    "Thinh Le <dev1@cweil.com>"
+  ],
+  "description": "AMP RV Travel Group Website",
+  "license": "None",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "bootstrap": "~3.3.4",
+    "modernizr": "~2.8.3",
+    "jquery.scrollTo": "~2.1.0",
+    "html5shiv": "~3.7.2",
+    "respond": "~1.4.2"
+  }
+}
